@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lendrive-cline/static/css/main.f9393700.css",
+    "main.js": "/lendrive-cline/static/js/main.50380219.js",
+    "index.html": "/lendrive-cline/index.html",
+    "main.f9393700.css.map": "/lendrive-cline/static/css/main.f9393700.css.map",
+    "main.50380219.js.map": "/lendrive-cline/static/js/main.50380219.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9393700.css",
+    "static/js/main.50380219.js"
+  ]
+}
