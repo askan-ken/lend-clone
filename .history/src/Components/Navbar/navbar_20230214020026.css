@@ -1,0 +1,31 @@
+.nav-container{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.nav-logo img{
+    width: 200px;
+}
+.nav-search{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-search input{
+    width: 500px;
+    background: black;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+}
+.nav-util{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

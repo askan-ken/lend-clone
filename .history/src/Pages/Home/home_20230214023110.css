@@ -1,0 +1,10 @@
+.home-container {
+    
+}
+.home-days {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 40px);
+  grid-column-gap: 11px;
+  grid-row-gap: 5px;
+}

@@ -1,0 +1,158 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.home-days {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 30px);
+  grid-column-gap: 11px;
+  grid-row-gap: 5px;
+  padding: 1rem;
+  background-color: #222222;
+}
+.home-days button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  text-align: start;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.home-main {
+  padding: 2rem 0;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.trending {
+  display: grid;
+  grid-template-columns: 400px 200px;
+  grid-template-rows: 300px;
+  grid-column-gap: 11px;
+  grid-row-gap: 0px;
+  width: 600px;
+  height: 300px;
+  padding: 2rem ;
+  background: #333333;
+}
+.left-trending {
+  background-image: url("https://lendrive.web.id/wp-content/uploads/2022/12/1671537069-3406-131724.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trending-left-card {
+  backdrop-filter: blur(10px);
+  padding: 10px;
+}
+.left-card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 290px;
+  height: 60px;
+  color: black;
+}
+.left-card-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-trending {
+  background-image: url("https://lendrive.web.id/wp-content/uploads/2022/10/1664982880-4130-121869.jpg");
+  font-size: 10px;
+  padding: 1rem;
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-top{
+    background-color: #07696f;
+    font-size: 20px;
+    padding: .60rem 0;
+    border-radius: 5px 5px 0 0 ;
+    -webkit-border-radius: 5px 5px 0 0 ;
+    -moz-border-radius: 5px 5px 0 0 ;
+    -ms-border-radius: 5px 5px 0 0 ;
+    -o-border-radius: 5px 5px 0 0 ;
+}
+.popular-bot{
+    background-color: #333333;
+    height: 270px;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+}
+.popular-card {
+    width:130px;
+    height: 200px;
+    background-color: #333333;
+    width:;
+}
+.popular-card-top {
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+    grid-template-rows: repeat(2, 40px);
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+    padding: 10px;
+    background: url("https://lendrive.web.id/wp-content/uploads/2022/12/1671537069-3406-131724.jpg");
+    background-size: cover;
+}
+.fire{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.tv{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+.sub{
+    background-color: blue;
+    width: 40px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    bottom: -10px;
+    right: 20px;
+}

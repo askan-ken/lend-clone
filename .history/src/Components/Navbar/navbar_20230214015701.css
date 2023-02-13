@@ -1,0 +1,10 @@
+.nav-container{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.nav-logo img{
+    width: 100px;
+}
